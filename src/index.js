@@ -1,4 +1,5 @@
 module.exports = function toReadable (n) {
+    if (n == 0) {return 'zero'}
     const numbers = [
         "",
         "one",
@@ -19,7 +20,7 @@ module.exports = function toReadable (n) {
         "sixteen",
         "seventeen",
         "eighteen",
-        "ninety",
+        "nineteen",
     ];
     const numbersH = [
         "",
